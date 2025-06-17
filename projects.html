@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light dark">
     <meta name="description" content="Perhaps you want to click on this.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.grey.min.css">
     <meta name="author" content="Tirth Kavathiya">
     <meta name="robots" content="index, nofollow">
     <title>Tirth Kavathiya's Projects</title>
@@ -12,39 +13,43 @@
 <body>
   <header>
     <nav>
-      <center>
-	<p><a href="./index.html">Home</a> | <a href="projects.html">Projects</a> | <a href="https://github.com/foxtrot222" target="_blank">Github</a> | <a href="https://in.linkedin.com/in/tirth-kavathiya" target="_blank">Linkedin</a> | <a href="mailto:tirthkavathiya@gmail.com">Contact Me</a></p>
-      </center>
+      <ul>
+	<li><a href="./index.html">Home</a></li>
+	<li><a href="projects.html">Projects</a></li>
+	<li><a href="https://github.com/foxtrot222" target="_blank">Github</a></li>
+	<li><a href="https://in.linkedin.com/in/tirth-kavathiya" target="_blank">Linkedin</a></li>
+	<li><a href="mailto:tirthkavathiya@gmail.com">Contact Me</a></li>
+      </ul>
     </nav>
   </header>
   <main>
-  <hr>
-  <h1>Projects</h1>
-  <p>My best projects are showcased here. If you'd like to see more, please check out my GitHub.</p>
-  <hr>
   <section>
-  <h3>Conway's Game Of Life in C</h3>
-  <img src="./assets/game_of_life.gif" loading="lazy" alt="Game of life glider gun animation gif" width="500">
+  <h2>Projects</h2>
+  <p>My best projects are showcased here. If you'd like to see more, please check out my GitHub.</p>
+  </section>
+  <section>
+  <details name="example">
+  <summary role="button">Conway's Game Of Life in C</summary>
+  <img src="./assets/game_of_life.gif" loading="lazy" alt="Game of life glider gun animation gif">
   <p>
     I created <strong>Conway’s Game of Life</strong> in C using the <strong>Ncurses</strong> library. Initially, I thought implementing the neighbor algorithm would be challenging, but as I started coding, it turned out to be much easier than I expected. I realized that sometimes, the key to solving problems is just to dive into the code, especially when thinking through things on paper doesn't help.
   </p>
   <p>
       I first came across Conway's Game of Life in a <a href="https://www.youtube.com/watch?v=HeQX2HjkcNo&pp=ygUXZ2FtZSBvZiBsaWZlIHZlcml0YXNpdW0%3D" target="_blank">Veritasium video</a> and became really interested in it. Later, I got more involved in building my own version after seeing a Reddit post by a user,<a href="https://www.reddit.com/user/lonelyroom-eklaghor" target="_blank">u/lonelyroom-eklaghor</a>, who mentioned that it’s a great programming project for beginners. <a href="https://github.com/foxtrot222/game_of_life" target="_blank">Source Code</a>
   </p>
-  </section>
-  <hr>
-  <section>
-  <h3>Old Renders from 2022</h3>
-  <img src="./assets/old_render1.jpg" loading="lazy" alt="Drone 3D Model Render Image" width="500">
-  <img src="./assets/old_render2.jpg" loading="lazy" alt="Space Station 3D Model Render Image" width="500">
-  <img src="./assets/old_render3.jpg" loading="lazy" alt="Monkey Robot 3D Model Render Image" width="500">
+  </details>
+  <details name="example">
+  <summary role="button">Old Renders from 2022</summary>
+  <img src="./assets/old_render1.jpg" loading="lazy" alt="Drone 3D Model Render Image">
+  <img src="./assets/old_render2.jpg" loading="lazy" alt="Space Station 3D Model Render Image">
+  <img src="./assets/old_render3.jpg" loading="lazy" alt="Monkey Robot 3D Model Render Image">
   <p>I started using <a href="https://www.blender.org" target="_blank">Blender</a> in 2021, initially focusing on hard surface modeling. I learned a lot from YouTubers like <a href="https://www.youtube.com/c/JoshGambrell" target="_blank">Josh Gambrell</a>, <a href="https://www.youtube.com/@PonteRyuurui" target="_blank">Ponte Ryuui</a>, and <a href="https://www.youtube.com/@ChippWalters" target="_blank">Chipp Walters</a>. Unfortunately, many of my project files and photos are lost, but I managed to recover a few renders from the <a href="https://www.youtube.com/@PerfectCombetEVER" target="_blank">Perfect Comber Ever</a> Discord server, which was pretty active during the lockdown.</p>
   <p>The first image is a 3D model I created based on the drone from the movie <i>Oblivion</i>. The style is similar to Blender Bros, but I hope to develop my own style in the future. The second image is something I made following a <a href="https://www.youtube.com/watch?v=RqbE0e2jJIk&pp=0gcJCdQJAYcqIYzv" target="_blank">tutorial</a> by Chipp Walters. It was created using displacement maps, and I thought it turned out really cool. The last image, while not my proudest work, was enhanced by <a href="https://www.youtube.com/watch?v=K8M45g73urY" target="_blank">Chipp Walters' SketchStyle add-on</a>, which gave it a unique touch. I took a break from Blender in 2022 to focus on other things.</p>
+  </details>
   </section>
-  <hr>
   </main>
   <footer>
-    <center><p>&copy; 2025 Tirth Kavathiya. All rights reserved.</p></center>
+    <center><p>Made with Semantic HTML and Pico CSS</p><p>&copy; 2025 Tirth Kavathiya. All rights reserved.</p></center>
   </footer>
 </body>
 </html>
